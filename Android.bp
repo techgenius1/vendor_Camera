@@ -1,9 +1,8 @@
 android_app_import {
-        name: "GoogleCamera_b4s4",
+        name: "GoogleCameraUltraLegacy",
         owner: "google",
-        apk: "GoogleCamera.apk",
-        overrides: ["Aperture", "Camera2"],
-        preprocessed: true,
+        apk: "GoogleCameraUltraLegacy.apk",
+        overrides: ["Camera2", "Snap", "Aperture"],
         presigned: true,
         dex_preopt: {
                 enabled: false,
@@ -11,3 +10,4 @@ android_app_import {
         privileged: true,
         product_specific: true,
 }
+
